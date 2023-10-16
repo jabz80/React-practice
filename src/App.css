@@ -1,3 +1,7 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 h1 {
     text-align: center;
 }
@@ -25,4 +29,58 @@ button {
     border-radius: 15px;
     border: none;
     padding: 10px;
+    color: white;
+    transition: background-color 0.3s;
+    cursor: pointer;
+
+
 }
+.music-form {
+    background-color: #aed1ef;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+  
+  .music-form h2 {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .music-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .music-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.music-form input {
+    padding: 10px;
+    margin-left: 50px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .music-form button {
+    background-color: #007bff;
+    color: #ddc1c1;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 auto;
+    
+  }
+  
+  .music-form button:hover {
+    background-color: #0056b3;
+  }
