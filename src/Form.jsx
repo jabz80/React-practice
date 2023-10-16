@@ -4,7 +4,7 @@ export default function MusicForm({ onAddMusic }) {
   const [formData, setFormData] = useState({
     name: '',
     releaseDate: '',
-    img: 'country hits.jpeg',
+    img: './images/country hits.jpeg',
     author: '',
   });
 
@@ -20,7 +20,7 @@ export default function MusicForm({ onAddMusic }) {
       setFormData({
         name: '',
         releaseDate: '',
-        img: 'country hits.jpeg',
+        img: './images/country hits.jpeg',
         author: '',
       });
     }
@@ -37,7 +37,7 @@ export default function MusicForm({ onAddMusic }) {
         <br />
         <label>
           Release Date:
-          <input type="text" name="releaseDate" placeholder="Release Date" value={formData.releaseDate} onChange={handleChange} />
+          <input type="date" name="releaseDate" placeholder="Release Date" value={formData.releaseDate} onChange={handleChange} />
         </label>
         <br />
         <label>

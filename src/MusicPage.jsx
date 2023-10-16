@@ -4,14 +4,14 @@ import MusicForm from './Form';
 
 export default function MusicList() {
   const [musicData, setMusicData] = useState([
-    { name: 'Walk The Line', releaseDate: '1956-05-01', img: 'walk the line.jpeg', author: 'Johny Cash' },
-    { name: 'Take Me Home', releaseDate: '1971-04-12', img:'country road.jpeg', author: 'john Denver' },
-    { name: 'The Gambler', releaseDate: '1978-11-15', img:'gambler.jpeg', author: 'Kenny Rogers' },
-    { name: 'Where Were You', releaseDate: '2001-11-26', img:'where were you.jpeg', author: 'Alan Jackson' },
-    { name: 'Ring Of Fire', releaseDate: '1971-04-12', img:'ring of fire.jpeg', author: 'Johnny Cash' },
-    { name: 'Rhinestone Cowboy', releaseDate: '1975-05-26', img:'rhinestone cowboy.jpeg', author: 'Glen Cambell' },
-    { name: 'If Tomorrow Never Comes', releaseDate: '1989-08-21', img:'tomorrow never comes.jpeg', author: 'Garth Brooks' },
-    { name: 'Jolene', releaseDate: '1973-0-21', img:'jolene.jpeg', author: 'Dolly Parton' },
+    { name: 'Walk The Line', releaseDate: '1956-05-01', img: './images/walk the line.jpeg', author: 'Johny Cash' },
+    { name: 'Take Me Home', releaseDate: '1971-04-12', img:'./images/country road.jpeg', author: 'john Denver' },
+    { name: 'The Gambler', releaseDate: '1978-11-15', img:'./images/gambler.jpeg', author: 'Kenny Rogers' },
+    { name: 'Where Were You', releaseDate: '2001-11-26', img:'./images/where were you.jpeg', author: 'Alan Jackson' },
+    { name: 'Ring Of Fire', releaseDate: '1971-04-12', img:'./images/ring of fire.jpeg', author: 'Johnny Cash' },
+    { name: 'Rhinestone Cowboy', releaseDate: '1975-05-26', img:'./images/rhinestone cowboy.jpeg', author: 'Glen Cambell' },
+    { name: 'If Tomorrow Never Comes', releaseDate: '1989-08-21', img:'./images/tomorrow never comes.jpeg', author: 'Garth Brooks' },
+    { name: 'Jolene', releaseDate: '1973-0-21', img:'./images/jolene.jpeg', author: 'Dolly Parton' },
 
   ]);
 
