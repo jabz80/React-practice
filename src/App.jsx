@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import MusicList from './MusicPage.jsx';
-
+import MusicList from './components/MusicPage.jsx';
 import "./App.css"
+
 
 
 

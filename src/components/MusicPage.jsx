@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import LikeButton from './LikeButton';
-import MusicForm from './Form';
+import LikeButton from '../components/LikeButton';
+import MusicForm from '../components/Form';
 
 export default function MusicList() {
   const [musicData, setMusicData] = useState([
