@@ -1,5 +1,6 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(237, 228, 214);
 }
 
 h1 {
@@ -10,7 +11,7 @@ img {
     height: 300px;
     width: 300px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 li {
@@ -26,7 +27,7 @@ button {
     width: 100px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     background-color: rgb(33, 140, 247);
-    border-radius: 15px;
+    border-radius: 10px;
     border: none;
     padding: 10px;
     color: white;
@@ -36,7 +37,7 @@ button {
 
 }
 .music-form {
-    background-color: #aed1ef;
+    background-color: rgb(193, 190, 186);
     padding: 10px;
     border-radius: 5px;
     margin-top: 60px;
@@ -63,6 +64,7 @@ button {
 }
 
 .music-form input {
+    width: 300px;
     padding: 10px;
     margin-left: 50px;
     border: 1px solid #ccc;
@@ -74,7 +76,7 @@ button {
     color: white;
     padding: 10px;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
     margin: 0 auto;
@@ -82,5 +84,9 @@ button {
   }
   
   .music-form button:hover {
+    background-color: #0056b3;
+  }
+
+  .like-btn button:hover {
     background-color: #0056b3;
   }

@@ -17,6 +17,7 @@ export default function MusicForm({ onAddMusic }) {
     e.preventDefault();
     if (formData.name && formData.releaseDate && formData.img && formData.author) {
       onAddMusic(formData); // Pass the new music data to the parent component
+      // clears the from data
       setFormData({
         name: '',
         releaseDate: '',
